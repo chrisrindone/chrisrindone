@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="dns-prefetch" href="//use.fontawesome.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Rindone - adventures in internetting</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="site-title-container">
+            <h1 class="site-title w3-animate-zoom"><a href="#">Chris Rindone</a></h1>
+            <span class="slug"> adventures in internetting</span>
+            <div class="social">
+                <a href="https://codepen.io/chrisrindone/" target="_blank" title="CodePen"><i class='fab fa-codepen gt'></i></a>
+                <a href="https://github.com/chrisrindone" target="_blank" title="GitHub"><i class='fab fa-github gt'></i></a>
+                <a href="https://twitter.com/chrisrindone" target="_blank" title="Twitter"><i class='fab fa-twitter gt'></i></a>
+                <a href="https://www.facebook.com/chrisrindonecodes/" target="_blank" title="Facebook"><i class='fab fa-facebook gt'></i></a>
+                <a href="https://chrisrindone.com/contact-me/" target="_blank" title="Contact Me (chrisrindone.com on WordPress)"><i class='fas fa-envelope gt'></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- grid layout -->
+        <div class="media">
+
+            <div class="img">
+                <img src="img/chris-247-gs.png" alt="Chris">
+            </div>
+
+            <div class="content">
+                <div class="w3-bar w3-black">
+                    <button class="w3-bar-item w3-button tablink w3-indigo" onclick="openCity(event,'London')">Welcome</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">About Me</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Credits</button>
+                </div>
+
+                <div id="London" class="w3-container tborder city w3-animate-zoom">
+                    <h2>Hi There!</h2>
+                    <p>Welcome to my adventure in internetting. This site is where I will conduct various experiments with front-end web development. Basically, I am re-learning how to code after stepping away for a few years. My how things have changed!</p>
+                    <p>As a work in progress there's a long way to go before this site is finished. And there are quirks aplenty, (curse you, Google Fonts and browser prefixes)!. So, if you're ever curious - or bored - I hope you'll stop back by from time to time. If there's anything you'd like to point out or ask about <a href="https://chrisrindone.com/contact-me/" class="gt hover-underline-animation" target="_blank">drop me a note</a>.</p>
+                    <p>CSS has become very powerful, especially where it comes to layout via CSS Grid. I have a LOT of catching up to do but I feel that the journey will be worth the effort.</p>
+
+                    <p>Along the way I hope to share what I learn – and the tools and resources that help me along – with others aspiring to be web designers. More on that as I catch up and have useful info to share.</p>
+
+                    <p>Thanks for visiting, and feel free to connect with me via the social links at the top of the page.</p>
+                </div>
+
+                <div id="Paris" class="w3-container tborder city w3-animate-zoom" style="display:none">
+                    <h2>About Me</h2>
+                    <section>
+                        <h3>I'm Chris. Jack of Many Trades, Master of a Few</h3>
+                        <p>I've always had a keen interest in technology. Problem is, I have a very short attention span, and tend to learn things differently than most people. As a result I always try to simplify things and look for the shortest/easiest path to answers.</p>
+                        <p>For example, when I was working for a broadcast group in the northeast, I walked into a situation where a group of engineers and IT guys were trying to isolate a single machine in a server room. There were a bunch of Windows machines on a KVM switch and these guys were going nuts trying to figure out which was the one on the monitor. They already had one fellow starting to trace through a maze of wires. Not very efficient. I asked what they were doing. They explained. I asked if I could give it a try.</p>
+                        <p>I opened My Computer, right clicked on the CD-ROM drive, and clicked Eject. Lo and behold, out slid the tray on the offending PC. They were all muttering WTF. They were overthinking the problem, rather than going to - what I felt - was the simplest, most obvious solution. That's how I try to approach everything.</p>
+                        <p>For most of my working life I've been in radio broadcasting. The Great Recession broke me of that in 2009, so now I earn my paycheck cooking and managing a restaurant kitchen.</p>
+                        <p>As a side job - and when times are lean - I build websites. My current portfolio consists of the four WordPress websites belonging to the restaurant group I work for. Nothing fancy, but they do help provide for a few extra niceties.</p>
+                        <p>My goal is to transition from cooking full time to doing front-end development. It's a long road, but I'm determined to make it happen.</p>
+                        <p>I grew up in New England, and have been fortunate to live all over the USA. For the past twelve years I've made my home in New Orleans with the love of my life, Jane.</p>
+                    </section>
+                </div>
+
+                <div id="Tokyo" class="w3-container tborder city w3-animate-zoom" style="display:none">
+                    <h2>Credits</h2>
+                    <section>
+                        <h3>Applause (this list will grow)...</h3>
+                        <p>
+                            I've never been a fan of using CSS frameworks, (i.e., <a href="https://getbootstrap.com/" class="gt hover-underline-animation" target="_blank">Bootstrap</a>, <a href="https://vanillaframework.io/" class="gt hover-underline-animation" target="_blank">Vanilla</a>, <a href="https://en.wikipedia.org/wiki/CSS_framework" class="gt hover-underline-animation" target="_blank">etc</a>.), but I chose to use one for this project - <a href="https://www.w3schools.com/w3css/" class="gt hover-underline-animation" target="_blank">W3.CSS</a>. while it's far from perfect, it has enough features for me, without being massive. It's easy to override, intuitive to use and fairly lightweight. I'm just scratching the surface with W3.CSS but I may find it useful moving forward, especially on projects I need to deploy quickly, (I built this site in two days!).
+                        </p>
+                        <p>For whatever crazy reason, (peole who know me IRL would understand), I can't settle on just one editor. As such, I shuffle between <a href="https://code.visualstudio.com/" class="gt hover-underline-animation" target="_blank">VS Code</a> and <a href="
+                    http://brackets.io/" class="gt hover-underline-animation" target="_blank">Brackets</a>.</p>
+
+                        <p>There are numerous online tools that really help me to speed up my workflow. Part of why is because my memory isn't what it once was, another part is a convenience, and the last part is laziness :-)! Here are some of my go to's:</p>
+                        <ul>
+                            <li><a href="http://www.hslpicker.com/" class="gt hover-underline-animation" target="_blank">HSL Color Picker</a> - Awesome color tool which allows you to get your color codes in hex, rgba and hsla. </li>
+                            <li><a href="https://30-seconds.github.io/30-seconds-of-css/" class="gt hover-underline-animation" target="_blank">30 Seconds of CSS</a> - Self-described as, "A curated collection of useful CSS snippets you can understand in 30 seconds or less." Useful AND fun stuff!</li>
+                            <li><a href="https://bennettfeely.com/clippy/" class="gt hover-underline-animation" target="_blank">Clippy</a> - A CSS clip-path maker. Does what it says, and does so very intuatively.</li>
+                            <li><a href="https://gridbyexample.com/" class="gt hover-underline-animation" target="_blank">Grid by Example</a> - A great resource for getting started with CSS Grid from <a href="https://rachelandrew.co.uk/" class="hover-underline-animation" target="_blank">Rachel Andrew</a>, whose depth and breadth of font-end development is nothing short of amazing!</li>
+                            <li><a href="https://lunapic.com/" class="gt hover-underline-animation" target="_blank">LunaPic</a> - An excellent, free, online photo editor.</li>
+                            <li><a href="https://developer.mozilla.org/en-US/" class="gt hover-underline-animation" target="_blank">Mozilla Developer Network (MDN)</a> - Because knowledge.</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+            <div class="footer">
+                <p>
+                    <address>&copy;2019 Chris Rindone, New Orleans, USA. </address>
+            </div>
+        </div>
+        <!-- /end grid -->
+        <div class="w3-panel w3-black-t indent">
+            <span style="font-size:150px;line-height:0.6em; color:rgba(255, 255, 255, 0.6);">&#10077;</span>
+            <p class="w3-xlarge indent" style="margin-top:-40px">
+                <i>"Failure is a required component when learning how to overcome failure."</i>
+            </p>
+            <p class="cite">Chris Rindone</p>
+        </div>
+    </main>
+    <script>
+        function openCity(evt, cityName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-indigo", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " w3-indigo";
+        }
+
+    </script>
+
+</body>
+
+</html>
